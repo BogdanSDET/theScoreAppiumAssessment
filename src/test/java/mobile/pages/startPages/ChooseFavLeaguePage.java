@@ -23,32 +23,7 @@ public class ChooseFavLeaguePage {
 
     public List<WebElement> allLeagues;
 
-//    public void chooseFavoriteLeague(AppiumDriver driver, String leagueName) {
-//        int leagueSize = 48;
-//        int leagueCount = 0;
-//        boolean checked = false;
-//
-//        do {
-//            if(checked){break;}  //checks if league is chosen
-//            if (leagueCount != 0) {
-//                    MobileUtils.swipeShort(driver, "up");//swipes to make new list of leagues visible
-//                    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0, 3));//initialize new list
-//            }
-//            allLeagues = driver.findElements(By.xpath("//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\"]"));
-//            for (WebElement league : allLeagues) {
-//                if (leagueName.equals(MobileUtils.getText(league))  //if specific league is visible we check
-//                ) {
-//                    league.click();
-//                    checked = true;
-//                    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0, 3));
-//                    break;
-//                }
-//                {
-//                    leagueCount++;
-//                }
-//            }
-//        } while ((leagueCount < leagueSize));
-//    }
+
 public void chooseFavorite(AppiumDriver driver, String listXpath, String favorite, String direction) {
     boolean checked = true;
 
@@ -60,7 +35,8 @@ public void chooseFavorite(AppiumDriver driver, String listXpath, String favorit
         }
         if (count!=0){//not swiping in first round
         MobileUtils.swipeShort(driver, direction); // Swipe to make new list of leagues visible
-        } // Initialize new list
+        }
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));// Initialize new list
 
         List<WebElement> allFavorites = driver.findElements(By.xpath(listXpath));
 

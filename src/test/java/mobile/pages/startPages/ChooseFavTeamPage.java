@@ -33,6 +33,7 @@ public class ChooseFavTeamPage {
             if (swipeCount != 0) {
                 MobileUtils.swipeShort(driver, direction); // Swipe to make new list of leagues visible
                 }
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
                 swipeCount++; // Increment swipe count}
                 // Initialize new list
                 List<WebElement> allFavorites = driver.findElements(By.xpath(popularChoices));

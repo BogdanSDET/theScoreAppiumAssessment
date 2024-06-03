@@ -28,6 +28,7 @@ public class CapabilitiesManager {
                     caps.setCapability("app", props.getProperty("/Users/bogdantsybrukh/Downloads/appium-cucumberbdd-testng-master/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk"));
                     caps.setCapability("autoGrantPermissions", true);
 
+
                     break;
                 case "iOS":
 //                    caps.setCapability("automationName", props.getProperty("iOSAutomationName"));

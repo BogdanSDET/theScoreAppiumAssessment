@@ -116,18 +116,5 @@ public class MobileUtils {
     }
 
 
-//    public static void getScreenShotWithCucumber(AppiumDriver driver, Scenario scenario) {
-//        Date date = new Date();
-//        String screenShotFileName=date.toString().replace("","-")
-//                .replace(":","-");
-//        if(scenario.isFailed()) {
-//            File screenShotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//            try{
-//                FileUti(screenShotFile,new File("src/test/java/screenshot/"
-//                        +screenShotFileName+".png"));
-//            }
-//        }catch(IOException e){
-//            throw  new RuntimeException(e);
-//        }
-//    }
+
 }

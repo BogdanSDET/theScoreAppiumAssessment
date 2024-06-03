@@ -2,7 +2,6 @@ package mobile.runners;
 
 import io.cucumber.testng.CucumberOptions;
 
-
 @CucumberOptions(
         features = {"src/test/resources"},
         glue = {"mobile.stepDefinitions"},
@@ -14,6 +13,5 @@ import io.cucumber.testng.CucumberOptions;
                 , "summary"
         }
 )
-
-public class RealGooglePixelPhone6 extends RunnerBase {
+public class EmulatedMediumPhoneApi34 extends RunnerBase{
 }

@@ -1,6 +1,0 @@
-[Android_1A221FDF6006KS INFO ] 2024-05-31 04:24:42.087 ServerManager:20 - starting appium server
-[Android_1A221FDF6006KS INFO ] 2024-05-31 04:24:43.513 ServerManager:29 - Appium server started
-[Android_1A221FDF6006KS INFO ] 2024-05-31 04:24:43.522 DriverManager:31 - initializing Appium driver
-[Android_1A221FDF6006KS INFO ] 2024-05-31 04:24:43.527 PropertyManager:17 - loading config properties
-[Android_1A221FDF6006KS INFO ] 2024-05-31 04:24:43.528 CapabilitiesManager:17 - getting capabilities
-[Android_1A221FDF6006KS INFO ] 2024-05-31 04:24:49.331 DriverManager:43 - Driver is initialized

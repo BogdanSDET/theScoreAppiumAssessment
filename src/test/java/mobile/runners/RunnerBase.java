@@ -58,6 +58,10 @@ public class RunnerBase {
         getRunner().runScenario(pickle.getPickle());
     }
 
+
+
+
+
     @DataProvider
     public Object[][] scenarios() {
         return getRunner().provideScenarios();
@@ -69,6 +73,7 @@ public class RunnerBase {
         if(driverManager.getDriver() != null){
             driverManager.getDriver().quit();
             driverManager.setDriver(null);
+
 
         }
         ServerManager serverManager = new ServerManager();
