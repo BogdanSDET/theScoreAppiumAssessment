@@ -1,0 +1,267 @@
+2024-06-01 18:57:06:964 [Appium] Welcome to Appium v2.5.4
+2024-06-01 18:57:06:965 [Appium] Non-default server args:
+2024-06-01 18:57:06:966 [Appium] { port: 43746, sessionOverride: true }
+2024-06-01 18:57:06:967 [Appium] The autodetected Appium home path: /Users/bogdantsybrukh/.appium
+2024-06-01 18:57:06:967 [Appium] Attempting to load driver uiautomator2...
+2024-06-01 18:57:06:967 [Appium] Attempting to load driver xcuitest...
+2024-06-01 18:57:06:968 [Appium] Requiring driver at /Users/bogdantsybrukh/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2024-06-01 18:57:06:970 [Appium] Requiring driver at /Users/bogdantsybrukh/.appium/node_modules/appium-xcuitest-driver/build/index.js
+2024-06-01 18:57:07:765 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.798s
+2024-06-01 18:57:07:765 [Appium] XCUITestDriver has been successfully loaded in 0.798s
+2024-06-01 18:57:07:775 [Appium] Appium REST http interface listener started on http://0.0.0.0:43746
+2024-06-01 18:57:07:775 [Appium] You can provide the following URLs in your client code to connect to this server:
+2024-06-01 18:57:07:775 [Appium] 	http://127.0.0.1:43746/ (only accessible from the same host)
+2024-06-01 18:57:07:775 [Appium] 	http://10.0.0.194:43746/
+2024-06-01 18:57:07:775 [Appium] Available drivers:
+2024-06-01 18:57:07:775 [Appium]   - uiautomator2@3.5.2 (automationName 'UiAutomator2')
+2024-06-01 18:57:07:775 [Appium]   - xcuitest@7.16.2 (automationName 'XCUITest')
+2024-06-01 18:57:07:775 [Appium] Available plugins:
+2024-06-01 18:57:07:775 [Appium]   - images@3.0.7
+2024-06-01 18:57:07:776 [Appium]   - execute-driver@3.0.29
+2024-06-01 18:57:07:776 [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+2024-06-01 18:57:08:057 [HTTP] --> GET /status
+2024-06-01 18:57:08:057 [HTTP] {}
+2024-06-01 18:57:08:058 [AppiumDriver@f2df] Calling AppiumDriver.getStatus() with args: []
+2024-06-01 18:57:08:059 [AppiumDriver@f2df] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.5.4"}}
+2024-06-01 18:57:08:064 [HTTP] <-- GET /status 200 6 ms - 110
+2024-06-01 18:57:08:064 [HTTP] 
+2024-06-01 18:57:08:072 [HTTP] --> GET /status
+2024-06-01 18:57:08:072 [HTTP] {}
+2024-06-01 18:57:08:072 [AppiumDriver@f2df] Calling AppiumDriver.getStatus() with args: []
+2024-06-01 18:57:08:072 [AppiumDriver@f2df] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.5.4"}}
+2024-06-01 18:57:08:073 [HTTP] <-- GET /status 200 1 ms - 110
+2024-06-01 18:57:08:073 [HTTP] 
+2024-06-01 18:57:08:251 [HTTP] Request idempotency key: b7072b1c-b834-4055-9077-e7904ada34d2
+2024-06-01 18:57:08:257 [HTTP] --> POST /session
+2024-06-01 18:57:08:257 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:systemPort":"10000","appium:appPackage":"com.fivemobile.thescore","appium:automationName":"UiAutomator2","platformName":"ANDROID","appium:appActivity":"com.fivemobile.thescore.ui.MainActivity","appium:deviceName":"emulator-5554","appium:udid":"emulator-5554"}}}
+2024-06-01 18:57:08:258 [AppiumDriver@f2df] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:systemPort":"10000","appium:appPackage":"com.fivemobile.thescore","appium:automationName":"UiAutomator2","platformName":"ANDROID","appium:appActivity":"com.fivemobile.thescore.ui.MainActivity","appium:deviceName":"emulator-5554","appium:udid":"emulator-5554"}}]
+2024-06-01 18:57:08:258 [AppiumDriver@f2df] Event 'newSessionRequested' logged at 1717268228258 (13:57:08 GMT-0500 (Central Daylight Time))
+2024-06-01 18:57:08:259 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+2024-06-01 18:57:08:259 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2024-06-01 18:57:08:259 [Appium] Will require it at /Users/bogdantsybrukh/.appium/node_modules/appium-uiautomator2-driver
+2024-06-01 18:57:08:260 [Appium] Requiring driver at /Users/bogdantsybrukh/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2024-06-01 18:57:08:260 [AppiumDriver@f2df] Appium v2.5.4 creating new AndroidUiautomator2Driver (v3.5.2) session
+2024-06-01 18:57:08:260 [AppiumDriver@f2df] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2024-06-01 18:57:08:260 [AppiumDriver@f2df] Appium's BaseDriver version is 9.6.0
+2024-06-01 18:57:08:260 [AppiumDriver@f2df] AndroidUiautomator2Driver's BaseDriver version is 9.6.0
+2024-06-01 18:57:08:260 [AppiumDriver@f2df] There are no active sessions for cleanup
+2024-06-01 18:57:08:262 [AndroidUiautomator2Driver@9d85] Creating session with W3C capabilities: {
+2024-06-01 18:57:08:262 [AndroidUiautomator2Driver@9d85]   "alwaysMatch": {
+2024-06-01 18:57:08:262 [AndroidUiautomator2Driver@9d85]     "platformName": "ANDROID",
+2024-06-01 18:57:08:262 [AndroidUiautomator2Driver@9d85]     "appium:systemPort": "10000",
+2024-06-01 18:57:08:262 [AndroidUiautomator2Driver@9d85]     "appium:appPackage": "com.fivemobile.thescore",
+2024-06-01 18:57:08:262 [AndroidUiautomator2Driver@9d85]     "appium:automationName": "UiAutomator2",
+2024-06-01 18:57:08:262 [AndroidUiautomator2Driver@9d85]     "appium:appActivity": "com.fivemobile.thescore.ui.MainActivity",
+2024-06-01 18:57:08:262 [AndroidUiautomator2Driver@9d85]     "appium:deviceName": "emulator-5554",
+2024-06-01 18:57:08:263 [AndroidUiautomator2Driver@9d85]     "appium:udid": "emulator-5554"
+2024-06-01 18:57:08:263 [AndroidUiautomator2Driver@9d85]   },
+2024-06-01 18:57:08:263 [AndroidUiautomator2Driver@9d85]   "firstMatch": [
+2024-06-01 18:57:08:263 [AndroidUiautomator2Driver@9d85]     {}
+2024-06-01 18:57:08:263 [AndroidUiautomator2Driver@9d85]   ]
+2024-06-01 18:57:08:263 [AndroidUiautomator2Driver@9d85] }
+2024-06-01 18:57:08:263 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2024-06-01 18:57:08:264 [AndroidUiautomator2Driver@9d85] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2024-06-01 18:57:08:265 [AndroidUiautomator2Driver@9d85 (1911d844)] Session created with session id: 1911d844-53e2-4fa0-a655-d750083f0d02
+2024-06-01 18:57:08:275 [ADB] Found 2 'build-tools' folders under '/Users/bogdantsybrukh/Library/Android/sdk' (newest first):
+2024-06-01 18:57:08:275 [ADB]     /Users/bogdantsybrukh/Library/Android/sdk/build-tools/35.0.0-rc4
+2024-06-01 18:57:08:275 [ADB]     /Users/bogdantsybrukh/Library/Android/sdk/build-tools/34.0.0
+2024-06-01 18:57:08:275 [ADB] Using 'adb' from '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb'
+2024-06-01 18:57:08:275 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2024-06-01 18:57:08:287 [AndroidUiautomator2Driver@9d85 (1911d844)] Retrieving device list
+2024-06-01 18:57:08:287 [ADB] Trying to find connected Android devices
+2024-06-01 18:57:08:287 [ADB] Getting connected devices
+2024-06-01 18:57:08:298 [ADB] Connected devices: [{"udid":"1A221FDF6006KS","state":"device"},{"udid":"emulator-5554","state":"device"}]
+2024-06-01 18:57:08:298 [AndroidUiautomator2Driver@9d85 (1911d844)] Using device: emulator-5554
+2024-06-01 18:57:08:298 [ADB] Using 'adb' from '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb'
+2024-06-01 18:57:08:298 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2024-06-01 18:57:08:307 [ADB] Setting device id to emulator-5554
+2024-06-01 18:57:08:307 [AndroidUiautomator2Driver@9d85 (1911d844)] Starting 'com.fivemobile.thescore' directly on the device
+2024-06-01 18:57:08:308 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2024-06-01 18:57:08:328 [ADB] Current device property 'ro.build.version.sdk': 34
+2024-06-01 18:57:08:328 [ADB] Getting device platform version
+2024-06-01 18:57:08:328 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2024-06-01 18:57:08:345 [ADB] Current device property 'ro.build.version.release': 14
+2024-06-01 18:57:08:345 [ADB] Device API level: 34
+2024-06-01 18:57:08:345 [AndroidUiautomator2Driver@9d85 (1911d844)] Relaxing hidden api policy
+2024-06-01 18:57:08:346 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2024-06-01 18:57:08:346 [AndroidUiautomator2Driver@9d85 (1911d844)] No app sent in, not parsing package/activity
+2024-06-01 18:57:08:347 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+2024-06-01 18:57:08:355 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+2024-06-01 18:57:08:369 [AndroidUiautomator2Driver@9d85 (1911d844)] Pushing settings apk to the device...
+2024-06-01 18:57:08:370 [ADB] Getting package info for 'io.appium.settings'
+2024-06-01 18:57:08:370 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2024-06-01 18:57:08:402 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.9.2' >= '5.9.2')
+2024-06-01 18:57:08:403 [ADB] There is no need to install/upgrade '/Users/bogdantsybrukh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2024-06-01 18:57:08:403 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+2024-06-01 18:57:08:423 [AndroidUiautomator2Driver@9d85 (1911d844)] io.appium.settings is already running. There is no need to reset its permissions.
+2024-06-01 18:57:08:423 [Logcat] Starting logs capture with command: /Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+2024-06-01 18:57:08:442 [AndroidUiautomator2Driver@9d85 (1911d844)] Forwarding UiAutomator2 Server port 6790 to local port 10000
+2024-06-01 18:57:08:442 [AndroidUiautomator2Driver@9d85 (1911d844)] UiAutomator2 Server cannot start because the local port #10000 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones.
+2024-06-01 18:57:08:453 [AndroidUiautomator2Driver@9d85 (1911d844)] Deleting UiAutomator2 session
+2024-06-01 18:57:08:453 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+2024-06-01 18:57:08:454 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.fivemobile.thescore'
+2024-06-01 18:57:08:619 [Logcat] Stopping logcat capture
+2024-06-01 18:57:08:620 [ADB] Removing forwarded port socket connection: 10000 
+2024-06-01 18:57:08:620 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:10000'
+2024-06-01 18:57:08:634 [AndroidUiautomator2Driver@9d85 (1911d844)] Restoring hidden api policy to the device default configuration
+2024-06-01 18:57:08:634 [ADB] Running '/Users/bogdantsybrukh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2024-06-01 18:57:08:688 [AppiumDriver@f2df] Event 'newSessionStarted' logged at 1717268228688 (13:57:08 GMT-0500 (Central Daylight Time))
+2024-06-01 18:57:08:688 [AppiumDriver@f2df] Encountered internal error running command: Error: UiAutomator2 Server cannot start because the local port #10000 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones.
+2024-06-01 18:57:08:688 [AppiumDriver@f2df]     at Object.wrappedLogger.errorWithException (/usr/local/lib/node_modules/appium/node_modules/@appium/support/lib/logging.js:114:43)
+2024-06-01 18:57:08:688 [AppiumDriver@f2df]     at Object.wrappedLogger.errorAndThrow (/usr/local/lib/node_modules/appium/node_modules/@appium/support/lib/logging.js:120:16)
+2024-06-01 18:57:08:688 [AppiumDriver@f2df]     at forwardPort (/Users/bogdantsybrukh/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:460:24)
+2024-06-01 18:57:08:688 [AppiumDriver@f2df]     at AndroidUiautomator2Driver.allocateSystemPort (/Users/bogdantsybrukh/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:472:14)
+2024-06-01 18:57:08:696 [HTTP] <-- POST /session 500 437 ms - 1140
+2024-06-01 18:57:08:696 [HTTP] 
+2024-06-01 18:57:08:723 [Appium] Received SIGTERM - shutting down
+2024-06-01 18:57:08:723 [AppiumDriver@f2df] There are no active sessions for cleanup
+2024-06-01 18:57:08:725 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
+    at writeGeneric (node:internal/stream_base_commons:152:3)
+    at Socket._writeGeneric (node:net:953:11)
+    at Socket._write (node:net:965:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Socket.Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.<computed> [as info] (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/create-logger.js:81:14)
+    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/appium/lib/logsink.js:220:22)
+    at EventEmitter.emit (node:events:519:28)
+    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/appium/node_modules/npmlog/lib/log.js:247:8)
+2024-06-01 18:57:08:725 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
+    at writeGeneric (node:internal/stream_base_commons:152:3)
+    at Socket._writeGeneric (node:net:953:11)
+    at Socket._write (node:net:965:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Socket.Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:519:28)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+2024-06-01 18:57:08:725 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
+    at writeGeneric (node:internal/stream_base_commons:152:3)
+    at Socket._writeGeneric (node:net:953:11)
+    at Socket._write (node:net:965:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Socket.Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:519:28)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+2024-06-01 18:57:08:726 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
+    at writeGeneric (node:internal/stream_base_commons:152:3)
+    at Socket._writeGeneric (node:net:953:11)
+    at Socket._write (node:net:965:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Socket.Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:519:28)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+2024-06-01 18:57:08:726 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
+    at writeGeneric (node:internal/stream_base_commons:152:3)
+    at Socket._writeGeneric (node:net:953:11)
+    at Socket._write (node:net:965:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Socket.Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:519:28)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
